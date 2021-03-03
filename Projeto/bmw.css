@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+/*------------------------------------------------------------------------------div-------------------------------------------------------------------------------*/
+div#stronger{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*-----------------------------------------------------------------------------div_header-------------------------------------------------------------------------*/
+div#stronger header#header{
+	background: linear-gradient(to right,#000,#111,#222,#333,#444);
+	width: 100%;
+	height: 140px;
+	margin: 0px;
+	overflow: hidden;
+}
+div#stronger header#header div#docks{
+	width: 41.7%;
+	height: 75px;
+	position: relative;
+	top: 28px;
+	left: 45px;
+	margin: 0px;
+	overflow: hidden;
+}
+div#stronger header#header div#docks h1{
+	margin-top: -15px;
+	font-size: 80px;
+	font-family: Impact;
+	color: #ddd;
+}
+/*-------------------------------------------------------------------------div_header_nav-------------------------------------------------------------------------*/
+div#stronger header#header nav#navegacao{
+	display: block;
+	position: relative;
+	bottom: 36px;
+	left: 50%;
+	width: 26%;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+div#stronger header#header nav#navegacao h2{
+	display: none;
+}
+div#stronger header#header nav#navegacao ul{
+	list-style: none;
+}
+div#stronger header#header nav#navegacao li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+div#stronger header#header nav#navegacao a{
+	text-decoration: none;
+	color: #999;
+}
+div#stronger header#header nav#navegacao li:hover{
+	border-bottom: 4px solid #ddd;
+	transition: .2s;
+}
+div#stronger header#header nav#navegacao a:hover{
+	color: #ddd;
+	text-shadow: 1px 1px 3px #aaa;
+	transition: .2s;
+}
+/*-----------------------------------------------------------------------------div_img----------------------------------------------------------------------------*/
+div#stronger img#boff{
+	width: 250px;
+	height: 115px;
+	position: absolute;
+	top: 55px;
+	left: 76%;
+	z-index: 1;
+}
+/*----------------------------------------------------------------------------div_section-------------------------------------------------------------------------*/
+div#stronger section#services{
+	background: url('bmw-320i(3).jpg') no-repeat 0px 0px / 100%;
+	width: 100%;
+	height: 875px;
+	color: #444;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0px;
+}
+/*--------------------------------------------------------------------------div_section_img-----------------------------------------------------------------------*/
+@keyframes logan{
+	from{
+		left: 0px;
+	};
+	to{
+		left: 64px;
+	};
+}
+div#stronger section#services img.foto{
+	position: relative;
+	top: 60px;
+	left: 64px;
+	width: 20%;
+	height: 180px;
+	animation-name: logan;
+	animation-duration: 2s;
+	border-radius: 6px;
+	border: 2px solid #dfdfdf;
+	box-shadow: 1px 1px 3px 1px #444;
+	-webkit-transition: all 1s ease-in;
+}
+div#stronger section#services img.foto2{
+	position: relative;
+	top: 98px;
+	left: 64px;
+	width: 20%;
+	height: 180px;
+	animation-name: logan;
+	animation-duration: 2s;
+	border-radius: 6px;
+	border: 2px solid #dfdfdf;
+	box-shadow: 1px 1px 3px 1px #444;
+	-webkit-transition: all 1s ease-in;
+}
+div#stronger section#services img.foto:hover{
+	-webkit-transform: scale(1.2);
+}
+div#stronger section#services img.foto2:hover{
+	-webkit-transform: scale(1.2);
+}
+/*-----------------------------------------------------------------------div_section_figcaption-------------------------------------------------------------------*/
+@keyframes nss{
+	from{
+		left: 0px;
+	};
+	to{
+		left: 108px;
+	};
+}
+div#stronger section#services figcaption{
+	opacity: .6;
+	position: relative;
+	top: 77px;
+	left: 108px;
+	background-color: #f6f6f6;
+	width: 14%;
+	animation-name: nss;
+	animation-duration: 2s;
+	height: 150px;
+	overflow: hidden;
+	padding: 5px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 4px 1px #555;
+	border: 1px solid #bebebe;
+	margin: 0px;
+}
+div#stronger section#services figcaption:hover{
+	opacity: 1;
+	transition: .7s;
+	text-shadow: 1px 1px 4px #888
+}
+div#stronger section#services figcaption input#but{
+	position: relative;
+	bottom: 1px;
+	left: 10px;
+	width: 200px;
+	height: 64px;
+	border-radius: 20px;
+	border: 1px solid #888;
+	background-color: #eee;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #282828;
+	cursor: pointer;
+}
+div#stronger section#services figcaption input#but:hover{
+	background-color: #282828;
+	color: #eee;
+	text-shadow: 1px 1px 4px #888
+}
+/*------------------------------------------------------------------------div_section_table-----------------------------------------------------------------------*/
+@keyframes alow{
+	from{
+		left: 800px;
+	};
+	to{
+		left: 425px;
+	};
+}
+div#stronger section#services table{
+	position: relative;
+	bottom: 529px;
+	left: 425px;
+	opacity: .7;
+	display: block;
+	height: 557px;
+	width: 56%;
+	line-height: 21px;
+	animation-name: alow;
+	animation-duration: 2s;
+	border-radius: 6px;
+	border: 1px solid #888;
+	box-shadow: 1px 1px 4px 1px #555;
+	background-color: #fff;
+	margin: 0px;
+}
+div#stronger section#services table:hover{
+	opacity: 1;
+	transition: .7s;
+}
+div#stronger section#services table th{
+	border: 1px solid #888;
+	border-radius: 6px;
+	padding: 5px;
+	text-shadow: 1px 1px 3px #888;
+	background: #eee;
+}
+div#stronger section#services table td{
+	border-radius: 6px;
+	border: 1px solid #888;
+	text-align: center;
+	padding: 5px;
+	background: #fff;
+}
+/*-----------------------------------------------------------------------------div_div---------------------------------------------------------------------------*/
+@keyframes ambar{
+	from{
+		left: 300px;
+	};
+	to{
+		left: 425px;
+	};
+}
+div#stronger div#div2 h2{
+	text-shadow: 1px 1px 4px #aaa;
+}
+div#stronger div#div2{
+	opacity: .7;
+	position: relative;
+	bottom: 515px;
+	left: 425px;
+	animation-name: ambar;
+	animation-duration: 2s;
+	border-radius: 6px;
+	box-shadow: 1px 1px 4px 1px #555;
+	border: 1px solid #bebebe;
+	background-color: #f7f7f7;
+	width: 70%;
+	height: 240px;
+	overflow: hidden;
+	padding: 10px;
+	margin: 0px;
+}
+div#stronger div#div2:hover{
+	opacity: 1;
+	transition: .7s;
+}
+div#stronger div#div2 p{
+	text-align: justify;
+	text-indent: 45px;
+	line-height: 20px;
+}
+div#stronger div#div2 span{
+	font-weight: bold;
+}
+/*------------------------------------------------------------------------------div_footer------------------------------------------------------------------------*/
+div#stronger footer#copyright{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+div#stronger footer#copyright div#street{
+	height: 255px;
+	display: flex;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+div#stronger footer#copyright div#street div{
+	padding: 5px;
+}
+div#stronger footer#copyright div#street div#div_text{
+	height: 77%;
+	width: 31%;
+	margin: 25px 64px 0px 40px;
+}
+div#stronger footer#copyright div#street div#div_text h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#stronger footer#copyright div#street div#div_text p{
+	color: #666;
+	text-indent: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+div#stronger footer#copyright div#street div#div_text p span{
+	color: #333;
+	font-weight: bold;
+}
+div#stronger footer#copyright div#street div#short{
+	width: 19%;
+	text-align: center;
+	margin: 0px 54px 0px 64px;
+}
+div#stronger footer#copyright div#street div#short h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#stronger footer#copyright div#street div#short p{
+	color: #444;
+	line-height: 28px;
+}
+div#stronger footer#copyright div#street div#short p img{
+	width: 20px;
+	height: 16px;
+}
+div#stronger footer#copyright div#street div#short span{
+	color: #333;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+div#stronger footer#copyright div#street nav#everybody{
+	margin: 158px 0px 0px 54px;
+	width: 28.5%;
+	height: 91px;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+div#stronger footer#copyright div#street nav#everybody div#mens{
+	height: 13px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div#stronger footer#copyright div#street nav#everybody div#mens h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+div#stronger footer#copyright div#street nav#everybody ul{
+	height: 46px;
+	display: flex;
+	list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+div#stronger footer#copyright div#street nav#everybody ul li{
+	height: 100%;
+	padding: 0px 20px;
+}
+div#stronger footer#copyright div#street nav#everybody ul li img.angel{
+	filter: grayscale(1);
+	width: 36px;
+	height: 36px;
+}
+div#stronger footer#copyright div#street nav#everybody ul li img.angel:hover{
+	filter: drop-shadow(5px 5px 1px #666);
+}
+div#stronger footer#copyright div#street nav#everybody ul li:hover{
+	border-bottom: 3px solid #888;
+	transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+div#stronger footer#copyright footer#finished{
+	background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+	height: 100px;
+	color: #444;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+div#stronger footer#copyright footer#finished img{
+	filter: grayscale(1);
+	width: 40px;
+	height: 40px;
+}
+div#stronger footer#copyright footer#finished img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

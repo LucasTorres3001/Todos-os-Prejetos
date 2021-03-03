@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+/*----------------------------------------------------------------------------section-----------------------------------------------------------------------------*/
+section#perfect{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*----------------------------------------------------------------------------section_header----------------------------------------------------------------------*/
+section#perfect header#cab{
+	width: 100%;
+	height: 140px;
+	background: linear-gradient(to top,#fff,#eee,#ddd,#ccc,#bbb);
+	margin: 0px;
+	overflow: hidden;
+}
+section#perfect header#cab div#tanga{
+	width: 24%;
+	height: 72px;
+	margin: 22px 0px 0px 35px;
+}
+section#perfect header#cab div#tanga h1{
+	text-align: center;
+	font-family: Impact;
+	color: #333;
+	font-size: 80px;
+	margin-top: -13px;
+}
+section#perfect header#cab div#oil{
+	width: 16%;
+	height: 16px;
+	margin: 12px 0px 0px 101px;
+	overflow: hidden;
+}
+section#perfect header#cab div#oil h5{
+	margin-top: 0px;
+	text-align: center;
+	color: #333;
+	letter-spacing: 6px;
+	word-spacing: 10px;
+}
+/*------------------------------------------------------------------------section_header_nav----------------------------------------------------------------------*/
+section#perfect header#cab nav#navegacao{
+	display: block;
+	position: relative;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+	bottom: 60px;
+	left: 56%;
+	width: 15%;
+}
+section#perfect header#cab nav#navegacao h2{
+	display: none;
+}
+section#perfect header#cab nav#navegacao ul{
+	list-style: none;
+}
+section#perfect header#cab nav#navegacao li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+section#perfect header#cab nav#navegacao a{
+	color: #777;
+	text-decoration: none;
+}
+section#perfect header#cab nav#navegacao li:hover{
+	border-bottom: 4px solid #333;
+	transition: .2s;
+}
+section#perfect header#cab nav#navegacao a:hover{
+	color: #333;
+	transition: .2s;
+	text-shadow: 1px 1px 3px #aaa;
+}
+/*----------------------------------------------------------------------------section_img------------------------------------------------------------------------*/
+section#perfect img#Fale{
+	position: absolute;
+	top: 56px;
+	left: 74%;
+	width: 250px;
+	height: 115px;
+	z-index: 1;
+}
+/*------------------------------------------------------------------------section_section------------------------------------------------------------------------*/
+section#perfect section#setation{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url('Fale_Conosco.png') no-repeat 0px 0px / 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	height: 930px;
+	overflow: hidden;
+}
+/*----------------------------------------------------------------------section_section_form----------------------------------------------------------------------*/
+section#perfect section#setation form#fContato{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 64%;
+	height: 97%;
+	border-radius: 6px;
+	overflow: hidden;
+}
+/*--------------------------------------------------------------------section_section_form_fieldset--------------------------------------------------------------*/
+section#perfect section#setation form#fContato fieldset#principal{
+	opacity: .7;
+	top: 5px;
+	width: 74%;
+	height: 83%;
+	border: 1px solid #bbb;
+	border-radius: 6px;
+	background: #fafafa;
+	overflow: hidden;
+}
+section#perfect section#setation form#fContato fieldset#principal:hover{
+	box-shadow: 1px 1px 5px 1px #333;
+	opacity: 1;
+	transition: .6s;
+}
+section#perfect section#setation form#fContato fieldset#principal fieldset{
+	border: 1px solid #bbb;
+	border-radius: 6px;
+}
+section#perfect section#setation form#fContato fieldset#principal fieldset:hover{
+	box-shadow: 1px 1px 4px 1px #999;
+}
+section#perfect section#setation form#fContato fieldset#principal legend{
+	color: #666;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #999;
+}
+section#perfect section#setation form#fContato fieldset#principal p{
+	color: #444;
+}
+section#perfect section#setation form#fContato fieldset#principal fieldset#usuario fieldset{
+	border: 1px solid #888;
+}
+section#perfect section#setation form#fContato fieldset#principal fieldset#usuario fieldset legend{
+	color: #888;
+	text-shadow: 1px 1px 4px #bbb;
+}
+section#perfect section#setation form#fContato fieldset#principal fieldset#usuario fieldset label{
+	color: #444;
+}
+section#perfect section#setation form#fContato fieldset#principal input#botao{
+	width: 100px;
+	height: 42px;
+	position: relative;
+	top: 9px;
+	left: 43%;
+	background: #ccc;
+	color: #333;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+section#perfect section#setation form#fContato fieldset#principal input#botao:hover{
+	text-shadow: 1px 1px 4px #aaa;
+	background: #333;
+	color: #ddd;
+}
+/*---------------------------------------------------------------------------section_footer----------------------------------------------------------------------*/
+section#perfect footer#rodape{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+section#perfect footer#rodape div#aleatory{
+	height: 255px;
+	display: flex;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+section#perfect footer#rodape div#aleatory div{
+	padding: 5px;
+}
+section#perfect footer#rodape div#aleatory div#paragraph{
+	height: 77%;
+	width: 31%;
+	margin: 25px 64px 0px 40px;
+}
+section#perfect footer#rodape div#aleatory div#paragraph h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+section#perfect footer#rodape div#aleatory div#paragraph p{
+	color: #666;
+	text-indent: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+section#perfect footer#rodape div#aleatory div#paragraph p span{
+	color: #333;
+	font-weight: bold;
+}
+section#perfect footer#rodape div#aleatory div#leading{
+	width: 19%;
+	text-align: center;
+	margin: 0px 54px 0px 64px;
+}
+section#perfect footer#rodape div#aleatory div#leading h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+section#perfect footer#rodape div#aleatory div#leading p{
+	color: #444;
+	line-height: 28px;
+}
+section#perfect footer#rodape div#aleatory div#leading p img{
+	width: 20px;
+	height: 16px;
+}
+section#perfect footer#rodape div#aleatory div#leading span{
+	color: #333;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+section#perfect footer#rodape div#aleatory nav#silver{
+	margin: 158px 0px 0px 54px;
+	width: 28.5%;
+	height: 91px;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+section#perfect footer#rodape div#aleatory nav#silver div#blessed{
+	height: 13px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section#perfect footer#rodape div#aleatory nav#silver div#blessed h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+section#perfect footer#rodape div#aleatory nav#silver ul{
+	height: 46px;
+	display: flex;
+	list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+section#perfect footer#rodape div#aleatory nav#silver ul li{
+	height: 100%;
+	padding: 0px 20px;
+}
+section#perfect footer#rodape div#aleatory nav#silver ul li img.shadox{
+	filter: grayscale(1);
+	width: 36px;
+	height: 36px;
+}
+section#perfect footer#rodape div#aleatory nav#silver ul li img.shadox:hover{
+	filter: drop-shadow(5px 5px 1px #666);
+}
+section#perfect footer#rodape div#aleatory nav#silver ul li:hover{
+	border-bottom: 3px solid #888;
+	transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+section#perfect footer#rodape footer#fire{
+	background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+	height: 100px;
+	color: #444;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+section#perfect footer#rodape footer#fire img{
+	filter: grayscale(1);
+	width: 40px;
+	height: 40px;
+}
+section#perfect footer#rodape footer#fire img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+/*--------------------------------------------------------------------------------div-----------------------------------------------------------------------------*/
+div#divition{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*----------------------------------------------------------------------------div_header--------------------------------------------------------------------------*/
+div#divition header#pote{
+	background: linear-gradient(to right,#000,#111,#222,#333,#444);
+	width: 100%;
+	height: 140px;
+	margin: 0px;
+	color: #ddd;
+	overflow: hidden;
+}
+div#divition header#pote div#the_full{
+	width: 24%;
+	height: 86px;
+	position: relative;
+	top: -42px;
+	left: 45px;
+	margin: 0px;
+}
+div#divition header#pote div#the_full h1{
+	font-size: 80px;
+	font-family: Impact;
+}
+/*-----------------------------------------------------------------------------div_header_nav---------------------------------------------------------------------*/
+div#divition header#pote nav#navegation{
+	position: relative;
+	bottom: 101px;
+	left: 50%;
+	display: block;
+	width: 26%;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+div#divition header#pote nav#navegation h2{
+	display: none;
+}
+div#divition header#pote nav#navegation ul{
+	list-style: none;
+}
+div#divition header#pote nav#navegation li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+div#divition header#pote nav#navegation a{
+	color: #999;
+	text-decoration: none;
+}
+div#divition header#pote nav#navegation li:hover{
+	border-bottom: 4px solid #ddd;
+	transition: .2s;
+}
+div#divition header#pote nav#navegation a:hover{
+	color: #ddd;
+	text-shadow: 1px 1px 3px #aaa;
+	transition: .2s;
+}
+/*--------------------------------------------------------------------------------div_img-------------------------------------------------------------------------*/
+div#divition img#io{
+	position: absolute;
+	top: 55px;
+	left: 77%;
+	width: 250px;
+	height: 115px;
+	z-index: 1;
+}
+/*------------------------------------------------------------------------------div_section-----------------------------------------------------------------------*/
+div#divition section#formulario{
+	background: url('Onix3.jpg') no-repeat 0px 0px / 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 900px;
+	color: #444;
+	margin: 0px;
+	overflow: hidden;
+}
+/*---------------------------------------------------------------------------div_section_form---------------------------------------------------------------------*/
+div#divition section#formulario form#secaoI{
+	width: 47.8%;
+	height: 83%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	overflow: hidden;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box;
+}
+/*-----------------------------------------------------------------------div_section_form_fieldset-----------------------------------------------------------------*/
+div#divition section#formulario form#secaoI fieldset#dados{
+	opacity: .7;
+	width: 96%;
+	height: 98%;
+	border-radius: 8px;
+	background-color: #fff;
+	border: 1px solid #999;
+	box-shadow: 1px 1px 4px 1px #555;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+div#divition section#formulario form#secaoI fieldset#dados h2{
+	text-shadow: 1px 1px 3px #aaa;
+}
+div#divition section#formulario form#secaoI fieldset#dados:hover{
+	opacity: 1;
+	transition: .7s;
+}
+div#divition section#formulario form#secaoI fieldset#dados legend{
+	text-shadow: 1px 1px 2px #666;
+	font-weight: bold;
+	font-size: 20px;
+}
+div#divition section#formulario form#secaoI fieldset#dados input#botum{
+	position: relative;
+	top: 7px;
+	left: 43.7%;
+	width: 100px;
+	height: 49px;
+	color: #282828;
+	text-shadow: 1px 1px 3px #666;
+	font-size: 19px;
+	font-weight: bold;
+	border-radius: 20px;
+	cursor: pointer;
+}
+div#divition section#formulario form#secaoI fieldset#dados input#botum:hover{
+	color: #fff;
+	text-shadow: 1px 1px 3px #aaa;
+	background-color: #2b2b2b;
+}
+div#divition section#formulario form#secaoI fieldset#dados fieldset{
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px #bbb;
+}
+/*----------------------------------------------------------------------------div_footer--------------------------------------------------------------------------*/
+div#divition footer#copyright{
+	font-family: 'Source Sans Pro', sans-serif;
+  height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+div#divition footer#copyright div#johnson{
+  height: 255px;
+  display: flex;
+  padding: 5px;
+  overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+div#divition footer#copyright div#johnson div{
+  padding: 5px;
+}
+div#divition footer#copyright div#johnson div#project{
+  height: 77%;
+  width: 31%;
+  margin: 25px 64px 0px 40px;
+}
+div#divition footer#copyright div#johnson div#project h3{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+div#divition footer#copyright div#johnson div#project p{
+	color: #666;
+	text-indent: 40px;
+  line-height: 25px;
+	text-align: justify;
+}
+div#divition footer#copyright div#johnson div#project p span{
+  color: #333;
+  font-weight: bold;
+}
+div#divition footer#copyright div#johnson div#assistent{
+  width: 19%;
+  text-align: center;
+  margin: 0px 54px 0px 64px;
+}
+div#divition footer#copyright div#johnson div#assistent h4{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+div#divition footer#copyright div#johnson div#assistent p{
+  color: #444;
+  line-height: 28px;
+}
+div#divition footer#copyright div#johnson div#assistent p img{
+	width: 20px;
+	height: 16px;
+}
+div#divition footer#copyright div#johnson div#assistent span{
+  color: #333;
+  text-shadow: 1px 1px 5px #999;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+div#divition footer#copyright div#johnson nav#development{
+  margin: 158px 0px 0px 54px;
+  width: 28.5%;
+  height: 91px;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+div#divition footer#copyright div#johnson nav#development div#service{
+  height: 13px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#divition footer#copyright div#johnson nav#development div#service h4{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+div#divition footer#copyright div#johnson nav#development ul{
+  height: 46px;
+  display: flex;
+  list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+div#divition footer#copyright div#johnson nav#development ul li{
+  height: 100%;
+  padding: 0px 20px;
+}
+div#divition footer#copyright div#johnson nav#development ul li img.gold{
+  filter: grayscale(1);
+  width: 36px;
+  height: 36px;
+}
+div#divition footer#copyright div#johnson nav#development ul li img.gold:hover{
+  filter: drop-shadow(5px 5px 1px #666);
+}
+div#divition footer#copyright div#johnson nav#develpment ul li:hover{
+  border-bottom: 3px solid #888;
+  transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+div#divition footer#copyright footer#manager{
+  background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+  height: 100px;
+  color: #444;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+div#divition footer#copyright footer#manager img{
+	filter: grayscale(1);
+  width: 40px;
+  height: 40px;
+}
+div#divition footer#copyright footer#manager img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

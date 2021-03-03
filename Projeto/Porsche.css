@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+/*--------------------------------------------------------------------------------div-----------------------------------------------------------------------------*/
+div#cheetos{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*------------------------------------------------------------------------------div_header------------------------------------------------------------------------*/
+div#cheetos header#header{
+	background: linear-gradient(to right,#000,#111,#222,#333,#444);
+	width: 100%;
+	height: 140px;
+	margin: 0px;
+	overflow: hidden;
+}
+div#cheetos header#header div#loanding{
+	width: 33%;
+	height: 75px;
+	position: relative;
+	top: 28px;
+	left: 45px;
+	margin: 0px;
+	overflow: hidden;
+}
+div#cheetos header#header div#loanding h1{
+	margin-top: -11px;
+	font-size: 80px;
+	font-family: Impact;
+	color: #ddd;
+}
+/*-----------------------------------------------------------------------------div_header_nav---------------------------------------------------------------------*/
+div#cheetos header#header nav#navegacao{
+	display: block;
+	position: relative;
+	bottom: 40px;
+	left: 50%;
+	width: 26%;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+div#cheetos header#header nav#navegacao h2{
+	display: none;
+}
+div#cheetos header#header nav#navegacao ul{
+	list-style: none;
+}
+div#cheetos header#header nav#navegacao li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+div#cheetos header#header nav#navegacao a{
+	text-decoration: none;
+	color: #999;
+}
+div#cheetos header#header nav#navegacao li:hover{
+	border-bottom: 4px solid #ddd;
+	transition: .2s;
+}
+div#cheetos header#header nav#navegacao a:hover{
+	color: #ddd;
+	text-shadow: 1px 1px 3px #aaa;
+	transition: .2s;
+}
+/*-------------------------------------------------------------------------------div_img--------------------------------------------------------------------------*/
+div#cheetos img#abc{
+	width: 250px;
+	height: 115px;
+	position: absolute;
+	top: 55px;
+	left: 76%;
+	z-index: 1;
+}
+/*------------------------------------------------------------------------------div_section-----------------------------------------------------------------------*/
+div#cheetos section#services{
+	background: url('Porsche1.jpg') no-repeat 0px 0px / 100%;
+	width: 100%;
+	height: 875px;
+	color: #444;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0px;
+}
+/*----------------------------------------------------------------------------div_section_img---------------------------------------------------------------------*/
+@keyframes olivar{
+	from{
+		left: 0px;
+	};
+	to{
+		left: 66px;
+	}
+}
+div#cheetos section#services img#foto3{
+	position: relative;
+	top: 60px;
+	left: 66px;
+	width: 20%;
+	height: 180px;
+	animation-name: olivar;
+	animation-duration: 2s;
+	border: 2px solid #dfdfdf;
+	border-radius: 6px;
+	box-shadow: 1px 1px 3px 1px #444;
+	-webkit-transition: all 1s ease-in;
+}
+div#cheetos section#services img#foto4{
+	position: relative;
+	top: 98px;
+	left: 66px;
+	width: 20%;
+	height: 180px;
+	border: 2px solid #dfdfdf;
+	animation-name: olivar;
+	animation-duration: 2s;
+	border-radius: 6px;
+	box-shadow: 1px 1px 3px 1px #444;
+	-webkit-transition: all 1s ease-in;
+}
+div#cheetos section#services img#foto3:hover{
+	-webkit-transform: scale(1.2);
+}
+div#cheetos section#services img#foto4:hover{
+	-webkit-transform: scale(1.2);
+}
+/*---------------------------------------------------------------------------div_section_figcaption---------------------------------------------------------------*/
+@keyframes golf{
+	from{
+		left: 0px;
+	};
+	to{
+		left: 68px;
+	};
+}
+div#cheetos section#services figcaption{
+	opacity: .6;
+	position: relative;
+	top: 77px;
+	left: 68px;
+	background-color: #fff;
+	padding: 5px;
+	width: 19%;
+	height: 150px;
+	animation-name: golf;
+	animation-duration: 2s;
+	box-shadow: 1px 1px 4px 1px #555;
+	border-radius: 6px;
+	border: 1px solid #bbb;
+	margin: 0px;
+}
+div#cheetos section#services figcaption:hover{
+	opacity: 1;
+	transition: .7s;
+	text-shadow: 1px 1px 4px #aaa;
+}
+div#cheetos section#services figcaption input#click{
+	position: relative;
+	bottom: 2px;
+	left: 22px;
+	width: 256px;
+	height: 64px;
+	border-radius: 20px;
+	border: 1px solid #888;
+	background-color: #eee;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #282828;
+	cursor: pointer;
+}
+div#cheetos section#services figcaption input#click:hover{
+	background-color: #282828;
+	color: #eee;
+	text-shadow: 1px 1px 3px #888;
+}
+/*----------------------------------------------------------------------------div_section_table-------------------------------------------------------------------*/
+@keyframes ox{
+	from{
+		left: 800px
+	};
+	to{
+		left: 425px
+	};
+}
+div#cheetos section#services table{
+	position: relative;
+	bottom: 529px;
+	left: 425px;
+	opacity: .7;
+	width: 56%;
+	height: 555px;
+	line-height: 20px;
+	border-radius: 6px;
+	animation-name: ox;
+	animation-duration: 2s;
+	border: 1px solid #888;
+	box-shadow: 1px 1px 3px 1px #555;
+	background-color: #fff;
+	margin: 0px;
+}
+div#cheetos section#services table:hover{
+	opacity: 1;
+	transition: .7s;
+}
+div#cheetos section#services table th{
+	border: 1px solid #888;
+	text-shadow: 1px 1px 3px #888;
+	border-radius: 6px;
+	padding: 5px;
+	background-color: #e5e5e5;
+}
+div#cheetos section#services table td{
+	border-radius: 6px;
+	border: 1px solid #888;
+	text-align: center;
+	padding: 5px;
+	background-color: #f6f6f6;
+}
+/*--------------------------------------------------------------------------------div_div-------------------------------------------------------------------------*/
+@keyframes nova{
+	from{
+		left: 300px;
+	};
+	to{
+		left: 425px;
+	};
+}
+div#cheetos div#divisao{
+	opacity: .7;
+	position: relative;
+	bottom: 466px;
+	left: 425px;
+	width: 70%;
+	height: 180px;
+	animation-name: nova;
+	animation-duration: 2s;
+	padding: 10px;
+	line-height: 22px;
+	background-color: #f7f7f7;
+	box-shadow: 1px 1px 4px 1px #555;
+	border-radius: 6px;
+	border: 1px solid #bebebe;
+	overflow: hidden;
+	margin: 0px;
+}
+div#cheetos div#divisao:hover{
+	opacity: 1;
+	transition: .7s;
+}
+div#cheetos div#divisao h2{
+	text-shadow: 1px 1px 4px #aaa;
+}
+div#cheetos div#divisao p{
+	text-align: justify;
+	text-indent: 50px;
+}
+/*-----------------------------------------------------------------------------div_footer-------------------------------------------------------------------------*/
+div#cheetos footer#copy{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+div#cheetos footer#copy div#world{
+	height: 255px;
+	display: flex;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+div#cheetos footer#copy div#world div{
+	padding: 5px;
+}
+div#cheetos footer#copy div#world div#close{
+	height: 77%;
+	width: 31%;
+	margin: 25px 64px 0px 40px;
+}
+div#cheetos footer#copy div#world div#close h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#cheetos footer#copy div#world div#close p{
+	color: #666;
+	text-indent: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+div#cheetos footer#copy div#world div#close p span{
+	color: #333;
+	font-weight: bold;
+}
+div#cheetos footer#copy div#world div#cup{
+	width: 19%;
+	text-align: center;
+	margin: 0px 54px 0px 64px;
+}
+div#cheetos footer#copy div#world div#cup h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#cheetos footer#copy div#world div#cup p{
+	color: #444;
+	line-height: 28px;
+}
+div#cheetos footer#copy div#world div#cup p img{
+	width: 20px;
+	height: 16px;
+}
+div#cheetos footer#copy div#world div#cup span{
+	color: #333;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+div#cheetos footer#copy div#world nav#planet{
+	margin: 158px 0px 0px 54px;
+	width: 28.5%;
+	height: 91px;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+div#cheetos footer#copy div#world nav#planet div#chucrut{
+	height: 13px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div#cheetos footer#copy div#world nav#planet div#chucrut h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+div#cheetos footer#copy div#world nav#planet ul{
+	height: 46px;
+	display: flex;
+	list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+div#cheetos footer#copy div#world nav#planet ul li{
+	height: 100%;
+	padding: 0px 20px;
+}
+div#cheetos footer#copy div#world nav#planet ul li img.night{
+	filter: grayscale(1);
+	width: 36px;
+	height: 36px;
+}
+div#cheetos footer#copy div#world nav#planet ul li img.night:hover{
+	filter: drop-shadow(5px 5px 1px #666);
+}
+div#cheetos footer#copy div#world nav#planet ul li:hover{
+	border-bottom: 3px solid #888;
+	transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+div#cheetos footer#copy footer#porcentation{
+	background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+	height: 100px;
+	color: #444;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+div#cheetos footer#copy footer#porcentation img{
+	filter: grayscale(1);
+	width: 40px;
+	height: 40px;
+}
+div#cheetos footer#copy footer#porcentation img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

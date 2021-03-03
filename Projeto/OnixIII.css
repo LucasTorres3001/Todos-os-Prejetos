@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+/*--------------------------------------------------------------------------------div-----------------------------------------------------------------------------*/
+div#chiken{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*----------------------------------------------------------------------------div_header--------------------------------------------------------------------------*/
+div#chiken header#eggs{
+	background: linear-gradient(to right,#000,#111,#222,#333,#444);
+	width: 100%;
+	height: 140px;
+	margin: 0px;
+	color: #ddd;
+	overflow: hidden;
+}
+div#chiken header#eggs div#taxa{
+	height: 65%;
+	width: 23%;
+	padding: 1px;
+	margin: 20px 0px 0px 38px;
+	overflow: hidden;
+}
+div#chiken header#eggs div#taxa div#deadpool{
+	width: 100%;
+	height: 83%;
+	margin: 0px;
+	overflow: hidden;
+}
+div#chiken header#eggs div#taxa div#deadpool h1{
+	margin-top: -10px;
+	font-size: 80px;
+	font-family: Impact;
+	text-align: center;
+}
+div#chiken header#eggs div#taxa div#king{
+	width: 100%;
+	height: 17%;
+	margin: 0px;
+	overflow: hidden;
+}
+div#chiken header#eggs div#taxa div#king h5{
+	margin-top: 0px;
+	text-align: center;
+	letter-spacing: 6px;
+}
+/*------------------------------------------------------------------------div_header_nav--------------------------------------------------------------------------*/
+div#chiken header#eggs nav#waffles{
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	bottom: 74px;
+	left: 49%;
+	width: 26%;
+}
+div#chiken header#eggs nav#waffles h2{
+	display: none;
+}
+div#chiken header#eggs nav#waffles ul{
+	list-style: none;
+}
+div#chiken header#eggs nav#waffles li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+div#chiken header#eggs nav#waffles a{
+	text-decoration: none;
+	color: #888;
+}
+div#chiken header#eggs nav#waffles li:hover{
+	border-bottom: 4px solid #eee;
+	transition: .2s;
+}
+div#chiken header#eggs nav#waffles a:hover{
+	color: #eee;
+	transition: .2s;
+	text-shadow: 1px 1px 3px #aaa;
+}
+div#chiken img#womans{
+	position: absolute;
+	top: 56px;
+	left: 74%;
+	width: 250px;
+	height: 115px;
+	z-index: 1;
+}
+/*--------------------------------------------------------------------------div_section---------------------------------------------------------------------------*/
+div#chiken section#playstation{
+	background: url('Onix3.jpg') no-repeat 0px 0px / 100%;
+	width: 100%;
+	margin: 0px;
+	height: 676px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div#chiken section#playstation section#hell_in_a_cell{
+	flex-direction: column;
+	opacity: .8;
+	background-color: #f5f5f5;
+	width: 85%;
+	height: 600px;
+	border-radius: 10px;
+	border: 1px solid #aaa;
+}
+div#chiken section#playstation section#hell_in_a_cell:hover{
+	opacity: 1;
+}
+div#chiken section#playstation section#hell_in_a_cell div#ghost{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 75%;
+}
+div#chiken section#playstation section#hell_in_a_cell div#ghost img{
+	width: 30%;
+	height: 88%;
+}
+div#chiken section#playstation section#hell_in_a_cell div#indice{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 25%;
+}
+div#chiken section#playstation section#hell_in_a_cell div#indice p{
+	font-size: 45px;
+	color: #999;
+	font-style: italic;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-shadow: 1px 1px 4px #333;
+}
+/*---------------------------------------------------------------------------div_footer---------------------------------------------------------------------------*/
+div#chiken footer#copy{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+div#chiken footer#copy div#bullyng{
+	height: 255px;
+	display: flex;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+div#chiken footer#copy div#bullyng div{
+	padding: 5px;
+}
+div#chiken footer#copy div#bullyng div#foot{
+	height: 77%;
+	width: 31%;
+	margin: 25px 64px 0px 40px;
+}
+div#chiken footer#copy div#bullyng div#foot h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#chiken footer#copy div#bullyng div#foot p{
+	color: #666;
+	text-indent: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+div#chiken footer#copy div#bullyng div#foot p span{
+	color: #333;
+	font-weight: bold;
+}
+div#chiken footer#copy div#bullyng div#soccer{
+	width: 19%;
+	text-align: center;
+	margin: 0px 54px 0px 64px;
+}
+div#chiken footer#copy div#bullyng div#soccer h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#chiken footer#copy div#bullyng div#soccer p{
+	color: #444;
+	line-height: 28px;
+}
+div#chiken footer#copy div#bullyng div#soccer p img{
+	width: 20px;
+	height: 16px;
+}
+div#chiken footer#copy div#bullyng div#soccer span{
+	color: #333;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+div#chiken footer#copy div#bullyng nav#family_day{
+	margin: 158px 0px 0px 54px;
+	width: 28.5%;
+	height: 91px;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+div#chiken footer#copy div#bullyng nav#family_day div#attitude{
+	height: 13px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div#chiken footer#copy div#bullyng nav#family_day div#attitude h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+div#chiken footer#copy div#bullyng nav#family_day ul{
+	height: 46px;
+	display: flex;
+	list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+div#chiken footer#copy div#bullyng nav#family_day ul li{
+	height: 100%;
+	padding: 0px 20px;
+}
+div#chiken footer#copy div#bullyng nav#family_day ul li img.tchola{
+	filter: grayscale(1);
+	width: 36px;
+	height: 36px;
+}
+div#chiken footer#copy div#bullyng nav#family_day ul li img.tchola:hover{
+	filter: drop-shadow(5px 5px 1px #666);
+}
+div#chiken footer#copy div#bullyng nav#family_day ul li:hover{
+	border-bottom: 3px solid #888;
+	transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+div#chiken footer#copy footer#pancetta{
+	background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+	height: 100px;
+	color: #444;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+div#chiken footer#copy footer#pancetta img{
+	filter: grayscale(1);
+	width: 40px;
+	height: 40px;
+}
+div#chiken footer#copy footer#pancetta img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

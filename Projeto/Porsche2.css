@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+/*--------------------------------------------------------------------------------div-----------------------------------------------------------------------------*/
+div#gh{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*---------------------------------------------------------------------------div_header--------------------------------------------------------------------------*/
+div#gh header#muringa{
+	background: linear-gradient(to right,#000,#111,#222,#333,#444);
+	width: 100%;
+	height: 140px;
+	margin: 0px;
+	overflow: hidden;
+}
+div#gh header#muringa div#folder{
+	width: 33%;
+	height: 75px;
+	position: relative;
+	top: 28px;
+	left: 45px;
+	margin: 0px;
+	overflow: hidden;
+}
+div#gh header#muringa div#folder h1{
+	margin-top: -11px;
+	font-family: Impact;
+	font-size: 80px;
+	color: #ddd;
+}
+/*--------------------------------------------------------------------------div_header_nav----------------------------------------------------------------------*/
+div#gh header#muringa nav#navegacao{
+	position: relative;
+	bottom: 40px;
+	left: 50%;
+	display: block;
+	width: 26%;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+div#gh header#muringa nav#navegacao h2{
+	display: none;
+}
+div#gh header#muringa nav#navegacao ul{
+	list-style: none;
+}
+div#gh header#muringa nav#navegacao li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+div#gh header#muringa nav#navegacao a{
+	color: #999;
+	text-decoration: none;
+}
+div#gh header#muringa nav#navegacao li:hover{
+	border-bottom: 4px solid #ddd;
+	transition: .2s;
+}
+div#gh header#muringa nav#navegacao a:hover{
+	color: #ddd;
+	text-shadow: 1px 1px 3px #aaa;
+	transition: .2s;
+}
+/*------------------------------------------------------------------------------div_img--------------------------------------------------------------------------*/
+div#gh img#ident{
+	position: absolute;
+	top: 55px;
+	left: 77%;
+	width: 250px;
+	height: 115px;
+	z-index: 1;
+}
+/*----------------------------------------------------------------------------div_section-------------------------------------------------------------------------*/
+div#gh section#deg{
+	background: url('Porsche1.jpg') no-repeat 0px 0px / 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 900px;
+	margin: 0px;
+	overflow: hidden;
+}
+/*------------------------------------------------------------------------div_section_form------------------------------------------------------------------------*/
+div#gh section#deg form#secI{
+	width: 47.8%;
+	height: 83.2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #444;
+	border-radius: 6px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+/*---------------------------------------------------------------------div_section_form_fieldset------------------------------------------------------------------*/
+div#gh section#deg form#secI fieldset#dados{
+	opacity: .7;
+	width: 96%;
+	height: 98%;
+	border-radius: 8px;
+	background-color: #fff;
+	border: 1px solid #999;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+div#gh section#deg form#secI fieldset#dados h2{
+	text-shadow: 1px 1px 3px #aaa;
+}
+div#gh section#deg form#secI fieldset#dados:hover{
+	opacity: 1;
+	transition: .7s;
+	box-shadow: 1px 1px 4px 1px #555;
+}
+div#gh section#deg form#secI fieldset#dados legend{
+	text-shadow: 1px 1px 2px #666;
+	font-weight: bold;
+	font-size: 20px;
+}
+div#gh section#deg form#secI fieldset#dados input#botaum{
+	position: relative;
+	top: 7px;
+	left: 44%;
+	width: 100px;
+	height: 49px;
+	color: #282828;
+	text-shadow: 1px 1px 3px #666;
+	font-weight: bold;
+	font-size: 19px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+div#gh section#deg form#secI fieldset#dados input#botaum:hover{
+	color: #fff;
+	text-shadow: 1px 1px 3px #aaa;
+	background-color: #2b2b2b;
+}
+div#gh section#deg form#secI fieldset#dados fieldset{
+	border-radius: 6px;
+}
+div#gh section#deg form#secI fieldset#dados fieldset:hover{
+	box-shadow: 1px 1px 2px #bbb;
+}
+/*---------------------------------------------------------------------------div_footer--------------------------------------------------------------------------*/
+div#gh footer#copyright{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+div#gh footer#copyright div#businessman{
+	height: 255px;
+	display: flex;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+div#gh footer#copyright div#businessman div{
+	padding: 5px;
+}
+div#gh footer#copyright div#businessman div#the_ocean_by_blue{
+	height: 77%;
+	width: 31%;
+	margin: 25px 64px 0px 40px;
+}
+div#gh footer#copyright div#businessman div#the_ocean_by_blue h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#gh footer#copyright div#businessman div#the_ocean_by_blue p{
+	color: #666;
+	text-indent: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+div#gh footer#copyright div#businessman div#the_ocean_by_blue p span{
+	color: #333;
+	font-weight: bold;
+}
+div#gh footer#copyright div#businessman div#the_independence_day{
+	width: 19%;
+	text-align: center;
+	margin: 0px 54px 0px 64px;
+}
+div#gh footer#copyright div#businessman div#the_independence_day h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#gh footer#copyright div#businessman div#the_independence_day p{
+	color: #444;
+	line-height: 28px;
+}
+div#gh footer#copyright div#businessman div#the_independence_day p img{
+	width: 20px;
+	height: 16px;
+}
+div#gh footer#copyright div#businessman div#the_independence_day span{
+	color: #333;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+div#gh footer#copyright div#businessman nav#the_aleatory_university{
+	margin: 158px 0px 0px 54px;
+	width: 28.5%;
+	height: 91px;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+div#gh footer#copyright div#businessman nav#the_aleatory_university div#the_tools_father{
+	height: 13px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div#gh footer#copyright div#businessman nav#the_aleatory_university div#the_tools_father h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+div#gh footer#copyright div#businessman nav#the_aleatory_university ul{
+	height: 46px;
+	display: flex;
+	list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+div#gh footer#copyright div#businessman nav#the_aleatory_university ul li{
+	height: 100%;
+	padding: 0px 20px;
+}
+div#gh footer#copyright div#businessman nav#the_aleatory_university ul li img.the_box_blue_of_mother{
+	filter: grayscale(1);
+	width: 36px;
+	height: 36px;
+}
+div#gh footer#copyright div#businessman nav#the_aleatory_university ul li img.the_box_blue_of_mother:hover{
+	filter: drop-shadow(5px 5px 1px #666);
+}
+div#gh footer#copyright div#businessman nav#the_aleatory_university ul li:hover{
+	border-bottom: 3px solid #888;
+	transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+div#gh footer#copyright footer#the_office{
+	background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+	height: 100px;
+	color: #444;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+div#gh footer#copyright footer#the_office img{
+	filter: grayscale(1);
+	width: 40px;
+	height: 40px;
+}
+div#gh footer#copyright footer#the_office img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 100px;
+}
+/*----------------------------------------------------------------------------section-----------------------------------------------------------------------------*/
+section#president{
+	width: 101%;
+	margin: -20px 0px 0px -8px;
+	padding: 0px;
+}
+/*--------------------------------------------------------------------------section_header------------------------------------------------------------------------*/
+section#president header#cabeca{
+	background: linear-gradient(to right,#000,#111,#222,#333,#444);
+	width: 100%;
+	height: 140px;
+	margin: -9px 0px 0px 0px;
+	color: #ddd;
+	overflow: hidden;
+}
+section#president header#cabeca div#hand{
+	width: 23%;
+	height: 70px;
+	margin: 30px 0px 0px 40px;
+	overflow: hidden;
+}
+section#president header#cabeca div#hand h1{
+	margin-top: -14px;
+	font-family: Impact;
+	font-size: 80px;
+}
+section#president header#cabeca div#arm{
+	width: 16%;
+	height: 16px;
+	margin: 0px 0px 0px 94px;
+	overflow: hidden;
+}
+section#president header#cabeca div#arm h5{
+	margin-top: 0px;
+	letter-spacing: 9px;
+	text-align: center;
+}
+/*-------------------------------------------------------------------------section_header_nav---------------------------------------------------------------------*/
+section#president header#cabeca nav#navegacao{
+	display: block;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	position: relative;
+	bottom: 70px;
+	left: 841px;
+	width: 315px;
+}
+section#president header#cabeca nav#navegacao h2{
+	display: none;
+}
+section#president header#cabeca nav#navegacao ul{
+	list-style: none;
+}
+section#president header#cabeca nav#navegacao li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+section#president header#cabeca nav#navegacao a{
+	color: #999;
+	text-decoration: none;
+}
+section#president header#cabeca nav#navegacao li:hover{
+	border-bottom: 4px solid #ddd;
+	transition: .2s;
+}
+section#president header#cabeca nav#navegacao a:hover{
+	text-shadow: 1px 1px 3px #aaa;
+	color: #ddd;
+	transition: .2s;
+}
+/*--------------------------------------------------------------------------section_img---------------------------------------------------------------------------*/
+section#president img#icone{
+	position: absolute;
+	top: 56px;
+	left: 74%;
+	width: 250px;
+	height: 115px;
+	z-index: 1;
+}
+/*--------------------------------------------------------------------------section_section-----------------------------------------------------------------------*/
+section#president section#secao-principal{
+	background: url('Wallpaper.jpg') no-repeat 0px 0px / 100%;
+	width: 100%;
+	height: 1399px;
+	margin: 0px;
+	overflow: hidden;
+}
+/*-------------------------------------------------------------------------section_section_div--------------------------------------------------------------------*/
+section#president section#secao-principal div#interface{
+	width: 49.2%;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 8px 2px 8px 2px;
+	margin: 3px 0px 0px 7px;
+	border-radius: 6px;
+	color: #444;
+	opacity: .7;
+	transition: .9s;
+	background: #f1f1f1;
+}
+section#president section#secao-principal div#interface:hover{
+	opacity: 1;
+}
+/*-----------------------------------------------------------------------section_section_div_div------------------------------------------------------------------*/
+section#president section#secao-principal div#interface div#nuvemII{
+	width: 94%;
+	margin: 6px auto 0px auto;
+	padding: 8px 10px 8px 10px;
+	border-radius: 6px;
+	background-color: #efefef;
+	border: 1px solid #444;
+}
+section#president section#secao-principal div#interface div#nuvemII:hover{
+	box-shadow: 1px 1px 8px #333;
+}
+section#president section#secao-principal div#interface div#nuvemII p{
+	text-align: justify;
+	text-indent: 40px;
+	line-height: 24px;
+}
+section#president section#secao-principal div#interface div#nuvemII ul{
+	list-style: none;
+	line-height: 25px;
+}
+section#president section#secao-principal div#interface h2{
+	text-shadow: 1px 1px 4px #777;
+}
+section#president section#secao-principal div#interface div#nuvemII h3{
+	text-decoration: underline;
+}
+section#president section#secao-principal div#interface span{
+	font-weight: bold;
+}
+section#president section#secao-principal div#interfaceII{
+	width: 49.2%;
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 8px 2px 8px 2px;
+	margin: 3px 7px 0px 0px;
+	border-radius: 6px;
+	color: #444;
+	opacity: .7;
+	transition: .9s;
+	background: #f1f1f1;
+}
+/*-----------------------------------------------------------------------section_section_div----------------------------------------------------------------------*/
+section#president section#secao-principal div#interfaceII p{
+	text-align: justify;
+	text-indent: 40px;
+	line-height: 24px;
+}
+section#president section#secao-principal div#interfaceII:hover{
+	opacity: 1;
+}
+/*-----------------------------------------------------------------------section_section_div_div------------------------------------------------------------------*/
+section#president section#secao-principal div#interfaceII div.nuvemIII{
+	width: 94%;
+	margin: 0px auto 6px auto;
+	padding: 8px 10px 8px 10px;
+	border-radius: 6px;
+	background-color: #efefef;
+	border: 1px solid #444;
+}
+section#president section#secao-principal div#interfaceII div.nuvemIII:hover{
+	box-shadow: 1px 1px 8px #333;
+}
+section#president section#secao-principal div#interfaceII div.nuvemIII ul li{
+	list-style: none;
+}
+section#president section#secao-principal div#interfaceII h2{
+	text-shadow: 1px 1px 4px #777;
+}
+section#president section#secao-principal div#interfaceII span{
+	font-weight: bold;
+}
+/*-------------------------------------------------------------------------section_footer-------------------------------------------------------------------------*/
+section#president footer#machine{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+section#president footer#machine div#tecnology{
+  height: 255px;
+  display: flex;
+  padding: 5px;
+  overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+section#president footer#machine div#tecnology div{
+	padding: 5px;
+}
+section#president footer#machine div#tecnology div#space{
+  	height: 77%;
+  	width: 31%;
+  	margin: 25px 64px 0px 40px;
+}
+section#president footer#machine div#tecnology div#space h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+section#president footer#machine div#tecnology div#space p{
+	color: #666;
+	text-indent: 40px;
+  	line-height: 25px;
+	text-align: justify;
+}
+section#president footer#machine div#tecnology div#space p span{
+	color: #333;
+	font-weight: bold;
+}
+section#president footer#machine div#tecnology div#dover{
+	width: 19%;
+	text-align: center;
+	margin: 0px 54px 0px 64px;
+}
+section#president footer#machine div#tecnology div#dover h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+section#president footer#machine div#tecnology div#dover p{
+	color: #444;
+	line-height: 28px;
+}
+section#president footer#machine div#tecnology div#dover p img{
+	width: 20px;
+	height: 16px;
+}
+section#president footer#machine div#tecnology div#dover span{
+	color: #333;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+section#president footer#machine div#tecnology nav#man{
+	margin: 158px 0px 0px 54px;
+	width: 28.5%;
+	height: 91px;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+section#president footer#machine div#tecnology nav#man div#up{
+	height: 13px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section#president footer#machine div#tecnology nav#man div#up h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+section#president footer#machine div#tecnology nav#man ul{
+	height: 46px;
+	display: flex;
+	list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+section#president footer#machine div#tecnology nav#man ul li{
+	height: 100%;
+	padding: 0px 20px;
+}
+section#president footer#machine div#tecnology nav#man ul li img.white{
+	filter: grayscale(1);
+	width: 36px;
+	height: 36px;
+}
+section#president footer#machine div#tecnology nav#man ul li img.white:hover{
+	filter: drop-shadow(5px 5px 1px #666);
+}
+section#president footer#machine div#tecnology nav#man ul li:hover{
+	border-bottom: 3px solid #888;
+	transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+section#president footer#machine footer#good{
+	background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+	height: 100px;
+	color: #444;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+section#president footer#machine footer#good img{
+	filter: grayscale(1);
+	width: 40px;
+	height: 40px;
+}
+section#president footer#machine footer#good img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

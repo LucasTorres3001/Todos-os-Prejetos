@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+/*------------------------------------------------------------------------------div-------------------------------------------------------------------------------*/
+div#united{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*---------------------------------------------------------------------------div_header---------------------------------------------------------------------------*/
+div#united header#chapeu{
+	background: linear-gradient(to right,#000,#111,#222,#333,#444);
+	width: 100%;
+	height: 140px;
+	margin: 0px;
+	color: #ddd;
+	overflow: hidden;
+}
+div#united header#chapeu div#sung{
+	width: 44%;
+	height: 81px;
+	margin: 22px 0px 0px 36px;
+	overflow: hidden;
+}
+div#united header#chapeu div#sung h1{
+	margin-top: -12px;
+	font-size: 80px;
+	font-family: Impact;
+}
+/*-------------------------------------------------------------------------div_header_nav--------------------------------------------------------------------------*/
+div#united header#chapeu nav#nave{
+	position: relative;
+	bottom: 60px;
+	left: 50%;
+	display: block;
+	width: 23.6%;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+div#united header#chapeu nav#nave h2{
+	display: none;
+}
+div#united header#chapeu nav#nave ul{
+	list-style: none;
+}
+div#united header#chapeu nav#nave li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+div#united header#chapeu nav#nave a{
+	color: #999;
+	text-decoration: none;
+}
+div#united header#chapeu nav#nave li:hover{
+	border-bottom: 4px solid #ddd;
+	transition: .2s;
+}
+div#united header#chapeu nav#nave a:hover{
+	color: #ddd;
+	text-shadow: 1px 1px 3px #aaa;
+	transition: .2s;
+}
+/*----------------------------------------------------------------------------div_img----------------------------------------------------------------------------*/
+div#united img#paintium{
+	position: absolute;
+	top: 55px;
+	left: 77%;
+	width: 250px;
+	height: 115px;
+	z-index: 1;
+}
+/*--------------------------------------------------------------------------div_section---------------------------------------------------------------------------*/
+div#united section#formularioIII{
+	background: url('Range.jpg') no-repeat 0px 0px / 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 892px;
+	margin: 0px;
+	overflow: hidden;
+}
+/*------------------------------------------------------------------------div_section_form------------------------------------------------------------------------*/
+div#united section#formularioIII form#formulary_two{
+	width: 47.8%;
+	height: 83.8%;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box;
+}
+/*--------------------------------------------------------------------div_section_form_fieldset--------------------------------------------------------------------*/
+div#united section#formularioIII form#formulary_two fieldset#dados{
+	opacity: .7;
+	width: 96%;
+	height: 98%;
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: #444;
+	background-color: #fff;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+div#united section#formularioIII form#formulary_two fieldset#dados h2{
+	text-shadow: 1px 1px 3px #aaa;
+}
+div#united section#formularioIII form#formulary_two fieldset#dados:hover{
+	box-shadow: 1px 1px 4px 1px #666;
+	opacity: 1;
+	transition: .7s;
+}
+div#united section#formularioIII form#formulary_two fieldset#dados legend{
+	text-shadow: 1px 1px 2px #666;
+	font-weight: bold;
+	font-size: 20px;
+}
+div#united section#formularioIII form#formulary_two fieldset#dados input#butao{
+	position: relative;
+	top: 7px;
+	left: 44%;
+	width: 100px;
+	height: 49px;
+	color: #282828;
+	text-shadow: 1px 1px 3px #666;
+	font-size: 19px;
+	font-weight: bold;
+	border-radius: 20px;
+	cursor: pointer;
+}
+div#united section#formularioIII form#formulary_two fieldset#dados input#butao:hover{
+	color: #fff;
+	text-shadow: 1px 1px 3px #aaa;
+	background-color: #2b2b2b;
+}
+div#united section#formularioIII form#formulary_two fieldset#dados fieldset{
+	border-radius: 6px;
+}
+div#united section#formularioIII form#formulary_two fieldset#dados fieldset:hover{
+	box-shadow: 1px 1px 2px 2px #bebebe;	
+}
+/*--------------------------------------------------------------------------div_footer----------------------------------------------------------------------------*/
+div#united footer#copyright{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+div#united footer#copyright div#department_reference{
+	height: 255px;
+	display: flex;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+div#united footer#copyright div#department_reference div{
+	padding: 5px;
+}
+div#united footer#copyright div#department_reference div#two_and_half_men{
+	height: 77%;
+	width: 31%;
+	margin: 25px 64px 0px 40px;
+}
+div#united footer#copyright div#department_reference div#two_and_half_men h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#united footer#copyright div#department_reference div#two_and_half_men p{
+	color: #666;
+	text-indent: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+div#united footer#copyright div#department_reference div#two_and_half_men p span{
+	color: #333;
+	font-weight: bold;
+}
+div#united footer#copyright div#department_reference div#i_the_one_man_of_true{
+	width: 19%;
+	text-align: center;
+	margin: 0px 54px 0px 64px;
+}
+div#united footer#copyright div#department_reference div#i_the_one_man_of_true h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+div#united footer#copyright div#department_reference div#i_the_one_man_of_true p{
+	color: #444;
+	line-height: 28px;
+}
+div#united footer#copyright div#department_reference div#i_the_one_man_of_true p img{
+	width: 20px;
+	height: 16px;
+}
+div#united footer#copyright div#department_reference div#i_the_one_man_of_true span{
+	color: #333;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people{
+	margin: 158px 0px 0px 54px;
+	width: 28.5%;
+	height: 91px;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people div#the_jump_of_cat{
+	height: 13px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people div#the_jump_of_cat h4{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people ul{
+	height: 46px;
+	display: flex;
+	list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people ul li{
+	height: 100%;
+	padding: 0px 20px;
+}
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people ul li img.blood_red{
+	filter: grayscale(1);
+	width: 36px;
+	height: 36px;
+}
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people ul li img.blood_red:hover{
+	filter: drop-shadow(5px 5px 1px #666);
+}
+div#united footer#copyright div#department_reference nav#one_heart_by_two_people ul li:hover{
+	border-bottom: 3px solid #888;
+	transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+div#united footer#copyright footer#business_process_manager{
+	background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+	height: 100px;
+	color: #444;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+div#united footer#copyright footer#business_process_manager img{
+	filter: grayscale(1);
+	width: 40px;
+	height: 40px;
+}
+div#united footer#copyright footer#business_process_manager img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

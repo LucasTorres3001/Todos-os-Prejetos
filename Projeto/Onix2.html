@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  	<head>
+	    <title>On Wheels</title>
+	    <meta charset="UTF-8">
+	    <link rel="stylesheet" href="Onix2.css" type="text/css">
+  	</head>
+  	<script type="text/javascript" src="funcoes.js"></script>
+	<body>
+		<main>
+			<div id="divition">
+			    <header id="pote">
+			    	<div id="the_full">
+			      		<h1>Onix</h1>
+			      	</div>
+			      	<nav id="navegation">
+			      		<h2>Menu principal</h2>
+			        	<ul>
+			          		<li onmouseover="mudaIo('Home.png')" onmouseout="mudaIo('Onix(7).png')"><a href="index.html">HOME</a></li>
+			          		<li onmouseover="mudaIo('Sobre.png')" onmouseout="mudaIo('Onix(7).png')"><a href="Sobre.html">SOBRE</a></li>
+			          		<li onmouseover="mudaIo('Fale.png')" onmouseout="mudaIo('Onix(7).png')"><a href="Fale.html">FALE CONOSCO</a></li>
+			        	</ul>
+			      	</nav>
+			    </header>
+			    <img id="io" src="Onix(7).png" title="Chevrolet Onix">
+			    <section id="formulario">
+				    <form id="secaoI" name="formulary" action="Onix_III.html" method="post">
+				    	<fieldset id="dados">
+				    		<h2>Solicitar Proposta</h2>
+				    		<legend>Coloque seu dados</legend>
+				    		<p><label for="bNome">Nome:</label> <input type="text" name="aNome" id="bNome" size="37" maxlength="64" placeholder="Nome completo" title="Nome completo" required></p>
+				    		<p><label for="bE-mail">E-mail:</label> <input type="E-mail" name="aE-mail" id="bE-mail" size="25" maxlength="30" placeholder="E-mail" title="Email" required></p>
+				    		<p><label for="bSenha">Senha:</label> <input type="password" name="aSenha" id="bSenha" size="13" maxlength="10" title="Senha" required></p>
+				    		<p><label for="bComf-senha">Confirme sua senha:</label> <input type="password" name="aComf-senha" id="bComf-senha" size="13" maxlength="10" title="Confirme sua senha" required></p>
+				    		<fieldset>
+					    		<label for="bStates">UF:</label>
+					   			<select name="aStates" id="bStates" title="Estado" required>
+					   				<option selected disabled value="">Selecione</option>
+					   				<optgroup label="Região Centro-Oeste">
+					   					<option value="DF">Distrito Federal</option>
+						    			<option value="GO">Goiás</option>
+						    			<option value="MT">Mato Grosso</option>
+										<option value="MS">Mato Grosso do Sul</option>
+									</optgroup>
+									<optgroup label="Região Nordeste">
+						    			<option value="AL">Alagoas</option>
+						    			<option value="BA">Bahia</option>
+						    			<option value="CE">Ceará</option>
+						    			<option value="MA">Maranhão</option>
+						    			<option value="PB">Paraíba</option>
+						    			<option value="PE">Pernambuco</option>
+						    			<option value="PI">Piauí</option>
+						    			<option value="RN">Rio Grande do Norte</option>
+						    			<option value="SE">Sergipe</option>
+						    		</optgroup>
+						    		<optgroup label="Região Norte">
+						    			<option value="AC">Acre</option>
+						    			<option value="AM">Amazonas</option>
+						    			<option value="AP">Amapá</option>
+						    			<option value="PA">Pará</option>
+						    			<option value="RO">Rondônia</option>
+						    			<option value="RR">Roraima</option>
+						    			<option value="TO">Tocantins</option>
+						    		</optgroup>
+						    		<optgroup label="Região Sudeste">
+						    			<option value="ES">Espiríto Santo</option>
+						    			<option value="MG">Minas Gerais</option>
+						    			<option value="RJ">Rio de Janeiro</option>
+						    			<option value="SP">São Paulo</option>
+						    		</optgroup>
+						    		<optgroup label="Região Sul">
+						    			<option value="PR">Paraná</option>
+						    			<option value="RS">Rio Grande do Sul</option>
+						    			<option value="SC">Santa Catarina</option>
+						    		</optgroup>
+					    		</select>
+					    		<label for="bCty">Cidade:</label> <input type="text" name="aCity" id="bCty" size="30" maxlength="40" placeholder="Digite sua cidade" title="cidade" list="lista" required>
+					    		<datalist id="lista">
+									<option value="Campinas"></option>
+					    			<option value="Guarulhos"></option>
+					    			<option value="Osasco"></option>
+					    			<option value="Ribeirão Preto"></option>
+					    			<option value="Santo André"></option>
+					    			<option value="Santos"></option>
+					   				<option value="São Bernardo do Campo"></option>
+					   				<option value="São José do Rio Preto"></option>
+					   				<option value="São José dos Campos"></option>
+					    			<option value="São Paulo"></option>
+					    			<option value="Sorocaba"></option>
+					    		</datalist></p>
+					    		<p><label for="bRua">Enderço:</label> <input type="text" name="aRua" id="bRua" size="36" maxlength="70" placeholder="Rua, Avenida, Travessa, Viela ..." title="endereço" required>
+					    		<label for="bNum">Número:</label> <input type="number" name="aNum" id="bNum" min="0" max="9999" title="número" required>
+					    		<label for="bComp">Complemento:</label> <input type="text" name="aComp" id="bComp" size="4" maxlength="3" title="complemento" required></p>
+					    	</fieldset>
+				    		<hr>
+				    		<p>COMENTÁRIOS ADICIONAIS:</p>
+				    		<textarea cols="93" rows="6" placeholder="1000/1000 Caracteres" maxlength="1000"></textarea>
+				    		<fieldset>
+				    			<legend>Ficou interessado ?</legend>
+				    			<p><input type="checkbox" name="aPedd" id="bPedd">
+				    			<label>Marque aqui para confirmar</label></p>
+				    			<p><label>Cor:</label></p> <input type="color" name="aCor" id="bCor" value="#ffffff" required>
+				    		</fieldset>
+				    		<input type="submit" id="botum" value="Enviar">
+				    	</fieldset>
+				    </form>
+				</section>
+			    <footer id="copyright">
+			      	<div id="johnson">
+				        <div id="project">
+				          	<h3>ON WHEELS</h3>
+				          	<p>A <span>On Wheels</span> é uma empresa que foi criada em 1997 para facilitar e satisfazer os nossos clientes, com o intuito de complementar ainda mais o mercado automobilístico brasileiro. Trabalhamos com as marcas automobilísticas mais renomadas do mercado mundial, com um dos prazos de entrega mais rápidos e satisfatórios do Brasil.</p>
+				        </div>
+			  	      	<div id="assistent">
+			  	        	<div>
+			  	          		<h4>Contatos</h4>
+			  	        	</div>
+			  	        	<div>
+			  	      	  		<span>Saurão do Monte-SP, Brasil</span>
+			  	        	</div>
+			  	        	<p>R. Gago Vasconcelos da Fonseca, 72 -<br>
+			  	        		Taquara dos Levantes, CEP: 01326-401<br>
+			  	        		onwheels@outlook.com<br>
+			  	        		Tel.: (15) 2369-2781
+			  	        		<img src="Telefone.png" alt="Isso aqui é uma imagem!" title="Telefone">
+			  	        	</p>
+			  	      	</div>
+			  		    <nav id="development">
+			  		    	<div id="service">
+			  		    		<h4>SIGA-NOS</h4>
+			  		    	</div>
+			  		     	<ul>
+				  			    <li><a href="https://www.facebook.com" title="Facebook" target="_blank"><img class="gold" src="Facebook-1.png"></a></li>
+				  			    <li><a href="https://www.instagram.com" title="Instagram" target="_blank"><img class="gold" src="Instagram-1.png"></a></li>
+				  			    <li><a href="https://www.linkedin.com" title="Linkedin" target="_blank"><img class="gold" src="Linkedin.png"></a></li>
+				  			    <li><a href="https://www.twitter.com" title="Twitter" target="_blank"><img class="gold" src="Twitter.png"></a></li>
+				  			    <li><a href="https://www.whatsapp.com" title="WhatsApp" target="_blank"><img class="gold" src="Whatsapp-1.png"></a></li>
+			  		    	</ul>
+			  		    </nav>
+			        </div>
+			        <footer id="manager">
+			        	<p>Copyright &copy; - Todos os direitos reservados.</p>
+			          	<img src="Logo.png" alt="Isso é um texto!" title="Logo">
+			        </footer>
+		    	<footer>
+			</div>
+		</main>
+	</body>
+</html>

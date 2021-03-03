@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+/*-----------------------------------------------------------------------------section----------------------------------------------------------------------------*/
+section#quick{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/*---------------------------------------------------------------------------section_header-----------------------------------------------------------------------*/
+section#quick header#cab{
+	background: linear-gradient(to top,#fff,#eee,#ddd,#ccc,#bbb);
+	width: 100%;
+	height: 140px;
+	margin: 0px;
+	color: #444;
+	overflow: hidden;
+}
+section#quick header#cab div#play{
+	width: 24%;
+	height: 86px;
+	position: relative;
+	top: -47px;
+	left: 45px;
+	margin: 0px;
+}
+section#quick header#cab div#play h1{
+	text-align: center;
+	font-family: Impact;
+	color: #333;
+	font-size: 80px;
+}
+section#quick header#cab div#endles{
+	width: 16%;
+	height: 16px;
+	position: relative;
+	bottom: 69px;
+	left: 110px;
+	margin: 0px;
+}
+section#quick header#cab div#endles h5{
+	text-align: center;
+	color: #333;
+	letter-spacing: 6px;
+	word-spacing: 10px;
+}
+/*-------------------------------------------------------------------------section_header_nav---------------------------------------------------------------------*/
+section#quick header#cab nav#navegacao{
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	bottom: 144px;
+	left: 56%;
+	width: 15%;
+}
+section#quick header#cab nav#navegacao h2{
+	display: none;
+}
+section#quick header#cab nav#navegacao ul{
+	list-style: none;
+}
+section#quick header#cab nav#navegacao li{
+	display: inline-block;
+	padding: 5px 15px;
+}
+section#quick header#cab nav#navegacao a{
+	text-decoration: none;
+	color: #888;
+}
+section#quick header#cab nav#navegacao li:hover{
+	border-bottom: 4px solid #444;
+	transition: .2s;
+}
+section#quick header#cab nav#navegacao a:hover{
+	color: #444;
+	transition: .2s;
+	text-shadow: 1px 1px 3px #aaa;
+}
+/*---------------------------------------------------------------------------section_img--------------------------------------------------------------------------*/
+section#quick img#paisagem{
+	position: absolute;
+	top: 56px;
+	left: 74%;
+	width: 250px;
+	height: 115px;
+}
+/*--------------------------------------------------------------------------section_section-----------------------------------------------------------------------*/
+section#quick section#peppa{
+	width: 100%;
+	margin: 0px;
+	height: 676px;
+	display: flex;
+	flex-direction: column;
+}
+section#quick section#peppa div#imagem{
+	height: 76%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*------------------------------------------------------------------------section_section_div---------------------------------------------------------------------*/
+section#quick section#peppa div#bear_little{
+	height: 24%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section#quick section#peppa div#bear_little p{
+	font-size: 45px;
+	color: #999;
+	font-style: italic;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-shadow: 1px 1px 4px #333;
+}
+section#quick section#peppa div#bear_little span{
+	font-weight: bold;
+	color: #777;
+}
+/*--------------------------------------------------------------------------section_footer------------------------------------------------------------------------*/
+section#quick footer#rodape{
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+section#quick footer#rodape div#tiger{
+	height: 255px;
+	display: flex;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+section#quick footer#rodape div#tiger div{
+	padding: 5px;
+}
+section#quick footer#rodape div#tiger div#tirulipa{
+	height: 77%;
+	width: 31%;
+	margin: 25px 64px 0px 40px;
+}
+section#quick footer#rodape div#tiger div#tirulipa h3{
+	color: #444;
+	text-shadow: 1px 1px 5px #999;
+}
+section#quick footer#rodape div#tiger div#tirulipa p{
+	color: #666;
+	text-indent: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+section#quick footer#rodape div#tiger div#tirulipa p span{
+  color: #333;
+  font-weight: bold;
+}
+section#quick footer#rodape div#tiger div#lion{
+  width: 19%;
+  text-align: center;
+  margin: 0px 54px 0px 64px;
+}
+section#quick footer#rodape div#tiger div#lion h4{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+section#quick footer#rodape div#tiger div#lion p{
+  color: #444;
+  line-height: 28px;
+}
+section#quick footer#rodape div#tiger div#lion p img{
+	width: 20px;
+	height: 16px;
+}
+section#quick footer#rodape div#tiger div#lion span{
+  color: #333;
+  text-shadow: 1px 1px 5px #999;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+section#quick footer#rodape div#tiger nav#horse{
+  margin: 158px 0px 0px 54px;
+  width: 28.5%;
+  height: 91px;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+section#quick footer#rodape div#tiger nav#horse div#pig{
+  height: 13px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#quick footer#rodape div#tiger nav#horse div#pig h4{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+section#quick footer#rodape div#tiger nav#horse ul{
+  height: 46px;
+  display: flex;
+  list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+section#quick footer#rodape div#tiger nav#horse ul li{
+  height: 100%;
+  padding: 0px 20px;
+}
+section#quick footer#rodape div#tiger nav#horse ul li img.bradox{
+  filter: grayscale(1);
+  width: 36px;
+  height: 36px;
+}
+section#quick footer#rodape div#tiger nav#horse ul li img.bradox:hover{
+  filter: drop-shadow(5px 5px 1px #666);
+}
+section#quick footer#rodape div#tiger nav#horse ul li:hover{
+  border-bottom: 3px solid #888;
+  transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+section#quick footer#rodape footer#cat{
+  background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+  height: 100px;
+  color: #444;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+section#quick footer#rodape footer#cat img{
+	filter: grayscale(1);
+  width: 40px;
+  height: 40px;
+}
+section#quick footer#rodape footer#cat img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}

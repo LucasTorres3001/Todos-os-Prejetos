@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>On Wheels</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="Fale.css" type="text/css">
+	</head>
+	<script type="text/javascript" src="funcoes.js"></script>
+	<body>
+		<main>
+			<section id="perfect">
+				<header id="cab">
+					<div id="tanga">
+				    	<h1>On Wheels</h1>
+				    </div>
+				    <div id="oil">
+				    	<h5>FALE CONOSCO</h5>
+				    </div>
+				    <nav id="navegacao">
+				    	<h2>Menu principal</h2>
+				      	<ul>
+				        	<li onmouseover="mudaImagem('Home.png')" onmouseout="mudaImagem('Fale.png')"><a href="index.html">HOME</a></li>
+				        	<li onmouseover="mudaImagem('Sobre.png')" onmouseout="mudaImagem('Fale.png')"><a href="Sobre.html">SOBRE</a></li>
+				      	</ul>
+				    </nav>
+				</header>
+				<img id="Fale" src="Fale.png" title="Fale Conosco">
+				<section id="setation">
+					<form action="Fale2.html" method="post" id="fContato">
+						<fieldset id="principal">
+							<fieldset id="usuario">
+								<legend>Identificação do Usuário</legend>
+								<p><label for="cNome">Nome:</label> <input type="name" name="tNome" id="cNome" size="40" maxlength="45" placeholder="Nome completo" title="Nome completo"  required></p>
+								<p><label for="cE-mail">E-mail:</label> <input type="email" name="tE-mail" id="cE-mail" size="25" maxlength="40" title="Email" required></p>
+								<p><label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="12" maxlength="10" placeholder="Digite sua senha" title="Senha" required></p>
+								<fieldset>
+									<legend>Sexo:</legend>
+									<input type="radio" name="tSexo" id="cMasc"> <label for="cMasc" required>Masculino</label><br>
+									<input type="radio" name="tSexo" id="cFem"> <label for="cFem" required>Feminino</label>
+								</fieldset>
+								<p>Data de nascimento</p> <input type="date" name="tData" id="cData" title="Data de nascimento" required>
+							</fieldset>
+
+							<fieldset id="endereco">
+								<legend>Enderço do Usuário</legend>
+								<label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="40" maxlength="80" placeholder="Rua, Avenida, Travessa, Viela ..." title="endereco" required>
+								<label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="99999" title="número" required>
+								<label>Complemento:</label> <input type="text" name="tCom" id="cCom" size="2" maxlength="4" title="complemento" required>
+								<p><label for="cSta">UF:</label>
+									<select name="tEst" id="cEst" title="Estado" required>
+										<option selected disabled value="">Selecione</option>
+										<optgroup label="Região Centro-Oeste">
+						   					<option value="DF">Distrito Federal</option>
+							    			<option value="GO">Goiás</option>
+							    			<option value="MT">Mato Grosso</option>
+											<option value="MS">Mato Grosso do Sul</option>
+										</optgroup>
+										<optgroup label="Região Nordeste">
+							    			<option value="AL">Alagoas</option>
+							    			<option value="BA">Bahia</option>
+							    			<option value="CE">Ceará</option>
+							    			<option value="MA">Maranhão</option>
+							    			<option value="PB">Paraíba</option>
+							    			<option value="PE">Pernambuco</option>
+							    			<option value="PI">Piauí</option>
+							    			<option value="RN">Rio Grande do Norte</option>
+							    			<option value="SE">Sergipe</option>
+						    			</optgroup>
+						    			<optgroup label="Região Norte">
+							    			<option value="AC">Acre</option>
+							    			<option value="AM">Amazonas</option>
+							    			<option value="AP">Amapá</option>
+							    			<option value="PA">Pará</option>
+							    			<option value="RO">Rondônia</option>
+							    			<option value="RR">Roraima</option>
+							    			<option value="TO">Tocantins</option>
+						    			</optgroup>
+						    			<optgroup label="Região Sudeste">
+							    			<option value="ES">Espiríto Santo</option>
+							    			<option value="MG">Minas Gerais</option>
+							    			<option value="RJ">Rio de Janeiro</option>
+							    			<option value="SP">São Paulo</option>
+						    			</optgroup>
+						    			<optgroup label="Região Sul">
+							    			<option value="PR">Paraná</option>
+							    			<option value="RS">Rio Grande do Sul</option>
+							    			<option value="SC">Santa Catarina</option>
+						    			</optgroup>
+									</select>
+								<label for="cCid">Cidade:</label> <input type="city" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Digite sua cidade" title="cidade" list="cidades" required></p>
+								<datalist id="cidades">
+									<option value="Campinas"></option>
+									<option value="Guarulhos"></option>
+									<option value="Osasco"></option>
+									<option value="Santo André"></option>
+									<option value="São Paulo"></option>
+								</datalist>
+							</fieldset>
+
+							<fieldset id="mensagem">
+								<legend>Mensagem do Usuário</legend>
+								<p><label for="cUrg">Grau de Urgência:</label>
+									Min.<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Max.</p>
+								<p><label for="cMsg">Mensagem:</label></p>
+									<textarea name="tMsg" id="cMsg" cols="100" rows="8" placeholder="Deixe aqui a sua mensagem!"></textarea>
+							</fieldset>
+							<a href="Fale2.html" target="_self"><input id="botao" type="submit" value="Enviar"></a>
+						</fieldset>
+					</form>
+				</section>
+				<footer id="rodape">
+			      	<div id="aleatory">
+				        <div id="paragraph">
+				          	<h3>ON WHEELS</h3>
+				          	<p>A <span>On Wheels</span> é uma empresa que foi criada em 1997 para facilitar e satisfazer os nossos clientes, com o intuito de complementar ainda mais o mercado automobilístico brasileiro. Trabalhamos com as marcas automobilísticas mais renomadas do mercado mundial, com um dos prazos de entrega mais rápidos e satisfatórios do Brasil.</p>
+				        </div>
+			  	      	<div id="leading">
+			  	        	<div>
+			  	          		<h4>Contatos</h4>
+			  	        	</div>
+			  	        	<div>
+			  	      	  		<span>Saurão do Monte-SP, Brasil</span>
+			  	        	</div>
+			  	        	<p>R. Gago Vasconcelos da Fonseca, 72 -<br>
+			  	        		Taquara dos Levantes, CEP: 01326-401<br>
+			  	        		onwheels@outlook.com<br>
+			  	        		Tel.: (15) 2369-2781
+			  	        		<img src="Telefone.png" alt="Isso aqui é uma imagem!" title="Telefone">
+			  	        	</p>
+			  	      	</div>
+			  		    <nav id="silver">
+			  		    	<div id="blessed">
+			  		    		<h4>SIGA-NOS</h4>
+			  		    	</div>
+			  		     	<ul>
+				  			    <li><a href="https://www.facebook.com" title="Facebook" target="_blank"><img class="shadox" src="Facebook-1.png"></a></li>
+				  			    <li><a href="https://www.instagram.com" title="Instagram" target="_blank"><img class="shadox" src="Instagram-1.png"></a></li>
+				  			    <li><a href="https://www.linkedin.com" title="Linkedin" target="_blank"><img class="shadox" src="Linkedin.png"></a></li>
+				  			    <li><a href="https://www.twitter.com" title="Twitter" target="_blank"><img class="shadox" src="Twitter.png"></a></li>
+				  			    <li><a href="https://www.whatsapp.com" title="WhatsApp" target="_blank"><img class="shadox" src="Whatsapp-1.png"></a></li>
+			  		    	</ul>
+			  		    </nav>
+			        </div>
+			        <footer id="fire">
+			        	<p>Copyright &copy; - Todos os direitos reservados.</p>
+			          	<img src="Logo.png" alt="Isso é um texto!" title="Logo">
+			        </footer>
+		    	<footer>
+			</section>
+		</main>
+	</body>
+</html>

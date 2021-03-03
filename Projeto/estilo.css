@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*---------------------------------------------------------------------------body---------------------------------------------------------------------------------*/
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*---------------------------------------------------------------------------header-------------------------------------------------------------------------------*/
+
+header#the_god_of_war{
+  height: 126px;
+  background: linear-gradient(to top,#fff,#eee,#ddd);
+  overflow: hidden;
+}
+
+/*-------------------------------------------------------------------------header_div-----------------------------------------------------------------------------*/
+
+header#the_god_of_war div#the_telephone_problem_yellow{
+  width: 27.7%;
+  height: 72px;
+  margin: 15px 0px 0px 10px;
+  overflow: hidden;
+}
+header#the_god_of_war div#the_telephone_problem_yellow h1{
+	display: flex;
+	justify-content: center;
+  font-size: 80px;
+  margin-top: -12px;
+  background: linear-gradient(to right,#000,#111,#222,#333,#444,#555);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Impact';
+}
+header#the_god_of_war div#smok_font_black{
+  width: 27.7%;
+  height: 19px;
+  margin: 0px 0px 0px 10px;
+  overflow: hidden;
+  text-align: center;
+}
+header#the_god_of_war div#smok_font_black h5{
+	background: linear-gradient(to left,#000,#111,#222,#333,#444,#555);
+	-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #444;
+  margin-top: 2px;
+  letter-spacing: 3px;
+  word-spacing: 7px;
+}
+
+/*------------------------------------------------------------------------header_nav------------------------------------------------------------------------------*/
+
+header#the_god_of_war nav#the_force_little_mouse{
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  bottom: 73px;
+  left: 51%;
+  width: 42%;
+}
+header#the_god_of_war nav#the_force_little_mouse h2{
+  display: none;
+}
+header#the_god_of_war nav#the_force_little_mouse ul{
+  list-style: none;
+  display: flex;
+}
+header#the_god_of_war nav#the_force_little_mouse ul li{
+  padding: 0px 18px;
+}
+header#the_god_of_war nav#the_force_little_mouse a{
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+}
+header#the_god_of_war nav#the_force_little_mouse ul li:hover{
+  border-bottom: 3px solid #888;
+  transition: .3s;
+}
+header#the_god_of_war nav#the_force_little_mouse a:hover{
+  color: #888;
+  transition: .5s;
+}
+
+/*----------------------------------------------------------------------------img---------------------------------------------------------------------------------*/
+
+img#imagem{
+  width: 200px;
+  height: 90px;
+  position: absolute;
+  top: 80px;
+  left: 77%;
+  z-index: 1;
+}
+
+/*---------------------------------------------------------------------------div_img------------------------------------------------------------------------------*/
+
+div.the_good_wild img.the_bang_pass{
+  width: 100%;
+  height: 729px;
+}
+
+/*---------------------------------------------------------------------------section------------------------------------------------------------------------------*/
+
+section.section_in_the_hell{
+  height: 1000px;
+  display: flex;
+  padding: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*--------------------------------------------------------------------------section_div---------------------------------------------------------------------------*/
+
+section.section_in_the_hell div.error_connection_of_system{
+  flex: 1;
+  padding: 5px;
+}
+
+/*------------------------------------------------------------------------section_article-------------------------------------------------------------------------*/
+
+section.section_in_the_hell article{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 0px -2px;
+  padding: 10px 7px;
+}
+
+/*------------------------------------------------------------------------section_hgroup--------------------------------------------------------------------------*/
+
+section.section_in_the_hell hgroup{
+  overflow: hidden;
+  height: 8%;
+  padding: 5px;
+  margin: 0px -4px;
+}
+section.section_in_the_hell hgroup h3{
+  margin-top: -3px;
+  color: #ccc;
+  font-style: italic;
+  text-shadow: 1px 1px 2px #999;
+}
+section.section_in_the_hell hgroup h4{
+  float: right;
+  margin-top: 0px;
+  color: #444;
+  text-shadow: 1px 1px 2px #999;
+}
+
+/*------------------------------------------------------------------------section_article-------------------------------------------------------------------------*/
+
+section.section_in_the_hell article.art{
+  height: 43.2%;
+}
+section.section_in_the_hell article.art2{
+  height: 47.7%;
+}
+
+/*----------------------------------------------------------------------section_article_figure--------------------------------------------------------------------*/
+
+section.section_in_the_hell article figure.foto-legenda{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  border-radius: 7px;
+  -webkit-transition: all .8s ease-in;
+}
+section.section_in_the_hell article figure.foto-legenda:hover{
+  -webkit-transform: scale(1.1);
+  box-shadow: 1px 1px 2px 2px #777;
+}
+section.section_in_the_hell article figure.foto-legenda img.img4{
+  width: 100%;
+  height: 100%;
+}
+
+/*------------------------------------------------------------------section_article_figure_figcaption-------------------------------------------------------------*/
+
+section.section_in_the_hell article figure.foto-legenda figcaption{
+  opacity: 0;
+  transition: opacity 1s;
+  background: rgba(0,0,0,.5);
+ 	position: absolute;
+  color: #fff;
+ 	top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+section.section_in_the_hell article figure.foto-legenda figcaption:hover{
+  transition: .8s;
+  opacity: 1;
+}
+section.section_in_the_hell article figure.foto-legenda figcaption p{
+  text-align: justify;
+  text-indent: 40px;
+  font-style: italic;
+}
+section.section_in_the_hell article figure.foto-legenda figcaption a{
+  color: #bababa;
+  font-style: italic;
+  text-decoration: none;
+}
+section.section_in_the_hell article figure.foto-legenda figcaption a:hover{
+  color: #eee;
+}
+
+/*-----------------------------------------------------------------------------footer-----------------------------------------------------------------------------*/
+
+footer#copyright{
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 355px;
+}
+
+/*----------------------------------------------------------------------------footer_div--------------------------------------------------------------------------*/
+
+footer#copyright div#identify_no_name_loser{
+  height: 255px;
+  display: flex;
+  padding: 5px;
+  overflow: hidden;
+}
+
+/*--------------------------------------------------------------------------footer_div_div------------------------------------------------------------------------*/
+
+footer#copyright div#identify_no_name_loser div{
+  padding: 5px;
+}
+footer#copyright div#identify_no_name_loser div#the_world_end_for_peoples{
+  height: 77%;
+  width: 31%;
+  margin: 25px 64px 0px 40px;
+}
+footer#copyright div#identify_no_name_loser div#the_world_end_for_peoples h3{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+footer#copyright div#identify_no_name_loser div#the_world_end_for_peoples p{
+	color: #666;
+	text-indent: 40px;
+  line-height: 25px;
+	text-align: justify;
+}
+footer#copyright div#identify_no_name_loser div#the_world_end_for_peoples p span{
+  color: #333;
+  font-weight: bold;
+}
+footer#copyright div#identify_no_name_loser div#the_exit_perfect_for_life{
+  width: 19%;
+  text-align: center;
+  margin: 0px 54px 0px 64px;
+}
+footer#copyright div#identify_no_name_loser div#the_exit_perfect_for_life h4{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+footer#copyright div#identify_no_name_loser div#the_exit_perfect_for_life p{
+  color: #444;
+  line-height: 28px;
+}
+footer#copyright div#identify_no_name_loser div#the_exit_perfect_for_life p img{
+  width: 20px;
+  height: 16px;
+}
+footer#copyright div#identify_no_name_loser div#the_exit_perfect_for_life span{
+  color: #333;
+  text-shadow: 1px 1px 5px #999;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------footer_div_nav------------------------------------------------------------------------*/
+
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone{
+  margin: 158px 0px 0px 54px;
+  width: 28.5%;
+  height: 91px;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_div-----------------------------------------------------------------------*/
+
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone div#the_weight_object_and_the_men_strongest_of_world{
+  height: 13px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone div#the_weight_object_and_the_men_strongest_of_world h4{
+  color: #444;
+  text-shadow: 1px 1px 5px #999;
+}
+
+/*-----------------------------------------------------------------------footer_div_nav_ul------------------------------------------------------------------------*/
+
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone ul{
+  height: 46px;
+  display: flex;
+  list-style: none;
+}
+
+/*---------------------------------------------------------------------footer_div_nav_ul_li-----------------------------------------------------------------------*/
+
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone ul li{
+  height: 100%;
+  padding: 0px 20px;
+}
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone ul li img.the_loser_small{
+  filter: grayscale(1);
+  width: 36px;
+  height: 36px;
+}
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone ul li img.the_loser_small:hover{
+  filter: drop-shadow(5px 5px 1px #666);
+}
+footer#copyright div#identify_no_name_loser nav#one_school_loser_alone ul li:hover{
+  border-bottom: 3px solid #888;
+  transition: .3s;
+}
+
+/*-------------------------------------------------------------------------footer_footer--------------------------------------------------------------------------*/
+
+footer#copyright footer#the_old_people_in_black{
+  background: linear-gradient(to right,#ccc,#ddd,#eee,#fff,#eee,#ddd,#ccc);
+  height: 100px;
+  color: #444;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------footer_footer_img------------------------------------------------------------------------*/
+
+footer#copyright footer#the_old_people_in_black img{
+	filter: grayscale(1);
+  width: 40px;
+  height: 40px;
+}
+footer#copyright footer#the_old_people_in_black img:hover{
+	filter: drop-shadow(4px 4px 1px #666);
+}
